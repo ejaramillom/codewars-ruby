@@ -1,5 +1,5 @@
 def reverse_string(string)
-  puts string.split.map(&:reverse).join(' ')
+  puts string.gsub(/\S+/, &:reverse)
 end
 
 reverse_string('stri ng')
