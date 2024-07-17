@@ -1,5 +1,5 @@
 def high(word)
-  x.split.max_by{ |word| word.sum - 96*word.length }
+  puts word.split.max_by{ |word| word.sum - 96*word.length }
 end
 
 high('man i need a taxi up to ubud')
