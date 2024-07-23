@@ -10,6 +10,7 @@ to_camel_case(word)
 # /[_-](.)/: This is a regular expression (regex) pattern.
 
 # [_-]: This matches either an underscore (_) or a hyphen (-).
+
 # (.): This is a capturing group that matches any single character. The parentheses () are used to capture the matched character.
 
 # {"#{$1.upcase}"}: This is the block form of gsub, where the matched pattern is replaced by the result of the block.
